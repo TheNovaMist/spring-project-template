@@ -36,6 +36,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <dependency>
+            <!--   注意：不引入此依赖 @Mapper @MapperScan 注解无效-->
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
