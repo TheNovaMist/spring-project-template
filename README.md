@@ -44,3 +44,4 @@ SpringMVC + JSP 使用视图解析器将 `/hello` 请求映射到 `/WEB-INF/jsp/
 
 注意：如果运行出现问题，要检查 `out` 目录下的 war 包结构，`WEB-INF` 目录下的 `classes` 和 `lib` 是平级的。
 
+![image](./README.assets/202209271539638.png)
